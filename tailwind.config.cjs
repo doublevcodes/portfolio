@@ -561,9 +561,10 @@ const config = {
       '4/6': '66.666667%',
       '5/6': '83.333333%',
       '1/20': '5vh',
-      '9/10': '95vh',
+      '9/10': '90vh',
       full: '100%',
       screen: '100vh',
+      inherit: 'inherit'
     }),
 
     inset: (theme, { negative }) => ({
