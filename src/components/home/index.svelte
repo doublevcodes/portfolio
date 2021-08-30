@@ -1,5 +1,6 @@
 <script lang="ts">
     import { fly } from "svelte/transition";
+    import { browser } from "$app/env";
 
     import Tech from "./tech.svelte";
 </script>
