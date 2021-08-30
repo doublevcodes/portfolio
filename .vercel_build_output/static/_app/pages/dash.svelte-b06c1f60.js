@@ -1,0 +1,1 @@
+import{S as s,i as a,s as e,e as r,t,c,a as o,g as n,d as u,f as d,D as l,E as p}from"../chunks/vendor-cb86510d.js";function f(s){let a,e;return{c(){a=r("h1"),e=t("Secret page")},l(s){a=c(s,"H1",{});var r=o(a);e=n(r,"Secret page"),r.forEach(u)},m(s,r){d(s,a,r),l(a,e)},p:p,i:p,o:p,d(s){s&&u(a)}}}class i extends s{constructor(s){super(),a(this,s,null,f,e,{})}}export{i as default};
