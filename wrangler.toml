@@ -1,0 +1,9 @@
+name = "doublevcodes-portfolio"
+type = "webpack"
+route = '*.vivaanverma.com/*'
+account_id = 'f2d3b5a3c7632ca474f06db4717b00b2'
+zone_id = '05d8538fd89486d425bd9e2e25d8bf79'
+usage_model = ''
+worker_dev = true
+compatibility_flags = []
+site = {bucket = "./build",entry-point = "workers-site"}
