@@ -3,7 +3,7 @@
 </script>
 
 <div class="h-full w-full grid desktop:grid-cols-main desktop:grid-rows-main gap-3 p-7">
-    <img in:fade="{{ delay: 1000, duration: 250 }}" class="desktop:col-start-1 desktop:col-end-2 desktop:row-start-1 desktop:row-end-2 justify-self-center rounded-full shadow-small hover:shadow-large hover:-rotate-6 duration-200" src="static/picture.jpg" alt="Profile">
+    <img in:fade="{{ delay: 1000, duration: 250 }}" class="desktop:col-start-1 desktop:col-end-2 desktop:row-start-1 desktop:row-end-2 justify-self-center self-center rounded-full shadow-small hover:shadow-large hover:-rotate-6 duration-200 p-6" src="https://avatars.githubusercontent.com/u/54081925?v=4" alt="Profile">
     <div class="desktop:col-start-1 desktop:col-end-2 desktop:row-start-2 desktop:row-end-3 mt-4 bg-darkover rounded-medium shadow-small hover:shadow-medium duration-200">
         <h3 class="overflow-ellipsis text-secondary py-4 px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor dui, ullamcorper at sollicitudin sed, rhoncus at urna. Praesent pellentesque orci non augue pulvinar, et viverra magna suscipit. Quisque sodales magna urna, dignissim pharetra turpis vehicula et. Duis ut turpis vel libero luctus accumsan. Pellentesque sit amet velit nec neque vehicula ultricies in at erat. Proin vel lorem luctus, tristique mi sit amet, tempor orci.</h3>
     </div>
