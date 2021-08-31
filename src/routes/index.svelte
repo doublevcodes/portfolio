@@ -18,10 +18,10 @@
         </div>
         <div class="flex flex-col min-w-screen text-primary justify-center items-center mx-12 mb-6 tablet:ml-36 widescreen:ml-48">
             <a href="/about">
-                <button class="w-2/3 px-7 py-5 text-4x-large rounded-medium bg-teal transition duration-300 hover:bg-blue self-center">
+                <button class="w-2/3 px-7 py-5 text-4x-large rounded-medium bg-teal in duration-300 hover:bg-blue self-center">
                     <p>Learn more about me →</p>
                 </button>
             </a>
         </div>
     </div>
-  </div>
+</div>

@@ -1,4 +1,4 @@
-<footer class="flex flex-row items-center justify-center p-5 border-t-2 bg-black text-secondary h-1/20">
+<footer class="flex flex-row items-center justify-center p-8 bg-black text-secondary h-1/20">
     <p class="px-7 text-2xl">
         Made with
         <span> </span>

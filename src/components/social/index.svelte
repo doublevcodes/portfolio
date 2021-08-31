@@ -8,7 +8,7 @@
     export let linkedinUrl: string = '';
 </script>
 
-<div transition:fly="{{ x: -100, duration: 1000 }}" class="flex gap-4">
+<div in:fly="{{ x: -100, duration: 1000 }}" class="flex gap-4">
     <Github profileUrl={githubUrl}/>
     <Linkedin profileUrl={linkedinUrl}/>
 </div>

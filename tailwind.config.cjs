@@ -102,7 +102,10 @@ const config = {
         DEFAULT: '#56B6C2',
         light: colors.black,
         dark: '#56B6C2'
-      }
+      },
+
+      back: '#333646',
+      darkover: '#252832'
     },
 
     // Default spacing that was provided by TailwindCSS has
@@ -530,6 +533,8 @@ const config = {
       10: 'repeat(10, minmax(0, 1fr))',
       11: 'repeat(11, minmax(0, 1fr))',
       12: 'repeat(12, minmax(0, 1fr))',
+      about: '0.5fr 1fr 0.5fr',
+      main: '0.5fr 1fr'
     },
 
     gridTemplateRows: {
@@ -540,6 +545,8 @@ const config = {
       4: 'repeat(4, minmax(0, 1fr))',
       5: 'repeat(5, minmax(0, 1fr))',
       6: 'repeat(6, minmax(0, 1fr))',
+      about: '2.4fr 0.3fr 1.6fr',
+      main: '0.5fr 1fr'
     },
 
     height: (theme) => ({
