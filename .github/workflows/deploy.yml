@@ -1,0 +1,27 @@
+name: Deploy to Cloudflare workers
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkut repository
+        uses: actions/checkout@v2
+        
+      - name: Install dependencies
+        run: npm i
+        
+      - name: Build for production
+        run: npm run build
+        
+      - name: Deploy to the edge
+        uses: cloudflare/wrangler-action@1.2.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN  }}
+  
