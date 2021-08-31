@@ -4,7 +4,7 @@
     import Main from "../components/panels/main.svelte";
 </script>
 
-<div class="grid desktop:grid-cols-about desktop:grid-rows-about h-9/10 gap-3 p-3 bg-back">
+<div class="grid desktop:grid-cols-about desktop:grid-rows-about h-9/10 gap-3 p-3 bg-back overflow-hidden">
     <div in:fly="{{ duration: 1000, y: -200 }}" class="desktop:col-start-2 desktop:col-end-3 desktop:row-start-1 desktop:row-end-2 w-full h-full bg-primary shadow-medium hover:shadow-x-large duration-500 rounded-medium">
         <Main/>
     </div>

@@ -533,7 +533,7 @@ const config = {
       10: 'repeat(10, minmax(0, 1fr))',
       11: 'repeat(11, minmax(0, 1fr))',
       12: 'repeat(12, minmax(0, 1fr))',
-      about: '0.5fr 1fr 0.5fr',
+      about: '14% 71% 14%',
       main: '0.5fr 1fr'
     },
 
@@ -545,7 +545,7 @@ const config = {
       4: 'repeat(4, minmax(0, 1fr))',
       5: 'repeat(5, minmax(0, 1fr))',
       6: 'repeat(6, minmax(0, 1fr))',
-      about: '2.4fr 0.3fr 1.6fr',
+      about: '54vh 4.7vh 32vh',
       main: '0.5fr 1fr'
     },
 
@@ -568,7 +568,7 @@ const config = {
       '4/6': '66.666667%',
       '5/6': '83.333333%',
       '1/20': '5vh',
-      '9/10': '90vh',
+      '19/20': '95vh',
       full: '100%',
       screen: '100vh',
       inherit: 'inherit'

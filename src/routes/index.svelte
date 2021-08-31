@@ -7,7 +7,7 @@
     <title>Vivaan Verma&apos;s Portfolio</title>
     <link rel="icon" href="/favicon.ico"/>
 </svelte:head>
-<div class="bg-primary border-t-2 border-secondary h-9/10">
+<div class="bg-primary border-t-2 border-secondary h-19/20 overflow-hidden">
     <div class="grid grid-cols-1 desktop:grid-cols-2 h-inherit">
         <div class="my-6 flex flex-col min-w-screen text-secondary justify-center mx-12 tablet:ml-36 widescreen:ml-48 col-start-1 col-end-2">
             <SocialArray
