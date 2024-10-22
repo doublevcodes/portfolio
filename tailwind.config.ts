@@ -27,7 +27,7 @@ const config: Config = {
       },
       animation: {
         slidein300: "slidein 1s ease 300ms forwards",
-        slidein500: "slidein 1s ease 700ms forwards",
+        slidein500: "slidein 1s ease 500ms forwards",
       },
     },
   },

@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 h-[95vh]">
+    <div className="flex flex-col items-center justify-center gap-4 flex-1">
       <h1 className="text-black dark:text-white text-5xl text-center md:text-9xl tracking-tight font-normal font-sans animate-slidein300 opacity-0">
         Vivaan Verma
       </h1>
