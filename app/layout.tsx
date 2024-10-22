@@ -16,10 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body
         className={`antialiased`}
       >
-        <div className="grid grid-rows-[7vh_93vh] items-center justify-items-center min-h-screen bg-gradient-to-b from-slate-950 to-black">
+        <div className="flex flex-col items-center justify-items-center min-h-screen bg-gradient-to-b from-slate-950 to-black">
           <Header></Header>
           {children}
         </div>
