@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
-import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header";
 
-const SprayLetters = localFont({
-  src: "./fonts/SprayLetters.otf",
-  variable: "--font-spray-letters",
-  weight: "100 900",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${SprayLetters.variable} antialiased`}
+        className={`antialiased`}
       >
-        <div className="grid grid-rows-[10vh_90vh] items-center justify-items-center min-h-screen">
+        <div className="grid grid-rows-[7vh_93vh] items-center justify-items-center min-h-screen bg-gradient-to-b from-slate-950 to-black">
           <Header></Header>
           {children}
         </div>

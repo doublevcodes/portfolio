@@ -1,10 +1,11 @@
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-9xl font-extralight font-[family-name:var(--font-spray-letters)] hover:bg-white p-10 hover:text-black duration-300">
+    <div className="flex flex-col items-center gap-4">
+      <h1 className="text-9xl tracking-tight font-normal font-sans animate-slidein300 opacity-0">
         Vivaan Verma
       </h1>
+      <h2 className="text-lg text-gray-300 uppercase tracking-tighter font-light animate-slidein500 opacity-0">16 year old student passionate about physics and tech</h2>
     </div>
   );
 }
