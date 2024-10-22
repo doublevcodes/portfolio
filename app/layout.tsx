@@ -2,15 +2,11 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "./components/header";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const SprayLetters = localFont({
+  src: "./fonts/SprayLetters.otf",
+  variable: "--font-spray-letters",
   weight: "100 900",
 });
 
@@ -27,9 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${SprayLetters.variable} antialiased`}
       >
-        {children}
+        <div className="grid grid-rows-[10vh_90vh] items-center justify-items-center min-h-screen">
+          <Header></Header>
+          {children}
+        </div>
         <Analytics/>
       </body>
     </html>
