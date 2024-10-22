@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "selector",
   theme: {
     extend: {
       colors: {
@@ -26,7 +27,7 @@ const config: Config = {
       },
       animation: {
         slidein300: "slidein 1s ease 300ms forwards",
-        slidein500: "slidein 1s ease 500ms forwards",
+        slidein500: "slidein 1s ease 700ms forwards",
       },
     },
   },
