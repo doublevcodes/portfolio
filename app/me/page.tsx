@@ -37,7 +37,7 @@ export default function Me() {
                                 </div>
                                 <div className="flex flex-row">
                                     <p className="pl-1 pr-2">-</p>
-                                    <p> Achieved <span className="font-bold">straight 9s in 2024 GCSEs</span> at <span className="text-blue-700 underline"><Link href="https://wilsons.school/">Wilson&apos;s School</Link></span>
+                                    <p> Achieved <span className="font-bold">straight 9s in 2024 GCSEs</span>
                                     </p>
                                 </div>
                             </div>
