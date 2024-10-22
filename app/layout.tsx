@@ -22,7 +22,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <div className="flex flex-col text-black dark:text-white items-center justify-items-center min-h-screen max-h-screen bg-gradient-to-br from-slate-200 via-gray-50 to-slate-200 dark:from-gray-900 dark:via-slate-950 dark:to-gray-900">
+        <div className="flex flex-col text-black dark:text-white items-center justify-items-center min-h-[100vmin] max-h-[100vmin] bg-gradient-to-br from-slate-200 via-gray-50 to-slate-200 dark:from-gray-900 dark:via-slate-950 dark:to-gray-900">
           <Header></Header>
           {children}
         </div>
