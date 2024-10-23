@@ -1,6 +1,6 @@
 export default function Card({name} : {name: string}) {
     return (
-        <div className="flex flex-col bg-gray-400 bg-opacity-30 border border-black">
+        <div className="flex flex-col bg-white border border-black rounded-lg">
             <div className="flex flex-row relative items-center p-2  border-black border-b">
                 <div className="relative shrink-0 flex flex-row gap-2 *:cursor-pointer *:rounded-full *:h-4 *:w-4 *:duration-300 *:select-none">
                     <span className="bg-red-500 hover:bg-red-700">&nbsp;</span>
