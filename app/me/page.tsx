@@ -4,14 +4,17 @@ export default function Me() {
     return (
         <div className="flex flex-row w-full h-[95vh]">
             <div className="flex font-mono grow justify-center md:py-8">
-                <div className="text-xs md:text-base max-w-full md:max-w-[60%] flex flex-col h-full w-fit bg-gray-400 dark:bg-black bg-opacity-30 border-b md:border border-black drop-shadow-2xl md:animate-slidein300 md:opacity-0">
-                    <div className="flex flex-row gap-2 justify-start items-center pb-4 *:cursor-pointer p-4 *:rounded-full *:h-4 *:w-4 *:duration-300 *:select-none border-black border-b">
-                        <span className="bg-red-500 hover:bg-red-700">&nbsp;</span>
-                        <span className="bg-yellow-500 hover:bg-yellow-700">&nbsp;</span>
-                        <span className="bg-green-500 hover:bg-green-700">&nbsp;</span>
+                <div className="text-xs md:text-base max-w-full md:max-w-[60%] grow flex flex-col h-full w-fit bg-gray-400 dark:bg-black bg-opacity-30 border-b md:border border-black hover:shadow-xl duration-150">
+                    <div className="flex flex-row relative items-center pb-4 p-4  border-black border-b">
+                        <div className="relative shrink-0 flex flex-row gap-2 *:cursor-pointer *:rounded-full *:h-4 *:w-4 *:duration-300 *:select-none">
+                            <span className="bg-red-500 hover:bg-red-700">&nbsp;</span>
+                            <span className="bg-yellow-500 hover:bg-yellow-700">&nbsp;</span>
+                            <span className="bg-green-500 hover:bg-green-700">&nbsp;</span>
+                        </div>
+                        <p className="absolute left-1/2 -translate-x-1/2">vivaanverma ~ whoami</p>
                     </div>
-                    <div className="p-4">
-                        <h1>$ whoami</h1>
+                    <div className="p-4 overflow-scroll">
+                            <h1>$ whoami</h1>
                         <p>
                             &gt; <span className="font-bold">Name: </span> Vivaan Verma
                         </p>
@@ -37,7 +40,7 @@ export default function Me() {
                                 </div>
                                 <div className="flex flex-row">
                                     <p className="pl-1 pr-2">-</p>
-                                    <p> Achieved <span className="font-bold">straight 9s in 2024 GCSEs</span>
+                                    <p> Achieved <span className="font-bold">straight 9s in GCSEs</span> (2024)
                                     </p>
                                 </div>
                             </div>
@@ -61,6 +64,24 @@ export default function Me() {
                                 <div className="flex flex-row">
                                     <p className="pl-1 pr-2">-</p>
                                     <p><span className="font-semibold">Fighter jets</span> and <span className="font-semibold">aerospace engineering</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p>&nbsp;</p>
+                        <div>
+                            <p>&gt; <span className="font-bold">Skills: </span></p>
+                            <div className="flex flex-col gap-1 pt-1 pl-[2ex]">
+                                <div className="flex flex-row">
+                                    <p className="pl-1 pr-2">-</p>
+                                    <p><span className="font-semibold"> Python</span>, <span className="font-semibold">web development</span> and <span className="font-semibold">DevOps</span></p>
+                                </div>
+                                <div className="flex flex-row">
+                                    <p className="pl-1 pr-2">-</p>
+                                    <p><span className="font-semibold">Maths </span>and<span className="font-semibold"> physics problem-solving</span></p>
+                                </div>
+                                <div className="flex flex-row">
+                                    <p className="pl-1 pr-2">-</p>
+                                    <p><span className="font-semibold">Design </span>with<span className="font-semibold"> CAD </span>alongside <span className="font-semibold">electronics</span></p>
                                 </div>
                             </div>
                         </div>

@@ -31,6 +31,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };
 export default config;
