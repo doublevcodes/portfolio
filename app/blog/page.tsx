@@ -24,7 +24,7 @@ export default function Blog() {
     const [index, setIndex] = useState(0);
     const posts = getPosts();
     useEffect(() => {
-        const handleKeyPress = (e) => {
+        const handleKeyPress = (e: { keyCode: number; }) => {
             if (e.keyCode == 38) {
                 if(index > 0){setIndex(index - 1)}
             } else if (e.keyCode == 40) {
@@ -52,7 +52,7 @@ export default function Blog() {
                             <h1>$ ls</h1>
                             <p>&nbsp;</p>
                             {posts.map((obj, idx) => (
-                                <div key={idx} className={`cursor-pointer flex flex-row gap-2 ${idx === index ? "font-bold" : ""}`} onMouseEnter={(e) => {setIndex(idx)}}>
+                                <div key={idx} className={`cursor-pointer flex flex-row gap-2 ${idx === index ? "font-bold" : ""}`} onMouseEnter={() => {setIndex(idx)}}>
                                     <p className={`${idx !== index ? "text-transparent" : ""}`}>&gt;</p>
                                     <p>[{idx}]</p>
                                     <p>{obj.name}</p>
