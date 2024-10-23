@@ -1,4 +1,4 @@
-export default function Card({name}) {
+export default function Card({name} : {name: string}) {
     return (
         <div className="flex flex-col bg-gray-400 bg-opacity-30 border border-black">
             <div className="flex flex-row relative items-center p-2  border-black border-b">
