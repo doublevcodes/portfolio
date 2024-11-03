@@ -5,7 +5,7 @@ export default function Header() {
     return(
         <div className="w-full md:flex md:flex-row">
             <header
-                className="md:flex bg-white md:*:hover:shadow-lg md:flex-row grid grid-rows-1 grid-cols-4 h-[10%] *:p-3 justify-start items-center font-sans text-xs md:text-base md:*:px-6 *:flex *:h-full *:text-black dark:*:text-white *:border-black dark:*:border-white"
+                className="top-0 sticky *:flex md:flex md:flex-row justify-start items-center dark:*:border-white grid grid-cols-4 grid-rows-1 bg-white md:*:hover:shadow-lg md:*:px-6 *:p-3 *:border-black h-[10%] *:h-full font-sans text-xs *:text-black md:text-base dark:*:text-white"
             >
                 <Link className={`hover:text-white hover:bg-black dark:hover:text-slate-800 dark:hover:bg-white duration-150 items-center justify-center border-b border-r`} href="/">○</Link>
                 <Link className={`hover:text-white hover:bg-black dark:hover:text-slate-800 dark:hover:bg-white duration-150 items-center justify-center border-b`} href="/me">Me</Link>
