@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Header() {
 
     return(
-        <div className="md:flex md:flex-row w-full">
+        <div className="w-full md:flex md:flex-row">
             <header
                 className="md:flex bg-white md:*:hover:shadow-lg md:flex-row grid grid-rows-1 grid-cols-4 h-[10%] *:p-3 justify-start items-center font-sans text-xs md:text-base md:*:px-6 *:flex *:h-full *:text-black dark:*:text-white *:border-black dark:*:border-white"
             >

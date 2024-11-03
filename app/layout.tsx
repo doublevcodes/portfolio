@@ -20,9 +20,11 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`antialiased`}
+        className="antialiased"
       >
-        <div className="selection:bg-teal-200 font-sans flex flex-col text-black dark:text-white items-center justify-items-center min-h-screen max-h-screen overflow-hidden bg-gradient-to-br from-gray-300 via-gray-50 to-gray-300 dark:from-gray-900 dark:via-slate-950 dark:to-gray-900">
+        <div
+          className="flex flex-col items-center max-h-screen min-h-screen overflow-hidden font-sans text-black justify-items-center selection:bg-teal-200 bg-gradient-to-br from-gray-300 dark:from-gray-900 via-gray-50 dark:via-slate-950 to-gray-300 dark:to-gray-900 dark:text-white"
+        >
           <Header></Header>
           {children}
         </div>

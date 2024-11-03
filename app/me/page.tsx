@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Me() {
     return (
         <div className="flex flex-row w-full h-[95vh]">
-            <div className="flex font-mono grow justify-center md:py-8">
+            <div className="flex justify-center font-mono grow md:py-8">
                 <div className="rounded-lg text-xs md:text-base max-w-full md:max-w-[60%] grow flex flex-col h-full w-fit bg-white dark:bg-black border-b md:border border-black shadow-lg hover:shadow-2xl duration-150 md:animate-slidein300 md:opacity-0">
-                    <div className="flex flex-row relative items-center pb-4 p-4 border-black border-b cursor-pointer">
+                    <div className="relative flex flex-row items-center p-4 pb-4 border-b border-black cursor-pointer">
                         <div className="relative shrink-0 flex flex-row gap-2 *:cursor-pointer *:rounded-full *:h-4 *:w-4 *:duration-300 *:select-none">
                             <span className="bg-red-500 brightness-125 hover:bg-red-700">&nbsp;</span>
                             <span className="bg-yellow-500 brightness-125 hover:bg-yellow-700">&nbsp;</span>
