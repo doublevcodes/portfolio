@@ -8,7 +8,7 @@ export default function Post({}) {
   return (
     <div className="flex flex-col gap-1 px-3 py-3 font-serif">
       <h1 className="font-bold text-3xl">The Case for Global Quantum Computing Governance</h1>
-      <p className="mb-2"><span className="font-bold">Date published:</span>  {metadata.publishDate.toLocaleDateString()}</p>
+      <p className="mb-2"><span className="font-bold">Date published:</span>  {metadata.publishDate.toLocaleDateString("en-GB")}</p>
       <p className="tracking-wide">
         Recently, Microsoft announced their Majorana 1 chip, promising that it will solve meaningful and industrial-scale
         problems in &quot;years not decades&quot;.
