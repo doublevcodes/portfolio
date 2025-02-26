@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'The Case for Global QC Governance',
-  publishDate: new Date(Date.UTC(2025, 2, 23)),
+  publishDate: new Date(Date.UTC(2025, 2, 26)),
 };
 
 
