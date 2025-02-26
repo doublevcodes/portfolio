@@ -44,7 +44,7 @@ export default function Blog() {
             <div className="flex flex-col flex-1 justify-center items-center">
                 <div className="flex flex-row flex-1 w-full h-full">
                     <div className="flex flex-1 justify-center md:py-8 font-mono">
-                        <Window dir="blog">
+                        <Window>
                             <div className="p-4 overflow-scroll">
                                     <h1>$ ls</h1>
                                     {posts.map((obj, idx) => (
