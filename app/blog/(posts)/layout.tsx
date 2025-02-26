@@ -6,9 +6,9 @@ export default function RootLayout({ children }: Readonly<{children: React.React
     return (
         <div className="flex flex-col w-full min-h-screen">
             <Header></Header>
-            <div className="flex flex-col items-center justify-center flex-1">
+            <div className="flex flex-col flex-1 justify-center items-center">
                 <div className="flex flex-row flex-1 w-full h-full">
-                    <div className="flex justify-center font-sans md:py-8 grow">
+                    <div className="flex justify-center md:py-8 font-sans grow">
                         <Window>
                             {children}
                         </Window>

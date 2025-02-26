@@ -15,10 +15,10 @@ interface Post {
 function getPosts(): Post[] {
     return [
         {
-            slug: "scent-teleportation",
-            title: "On the past, present and future of scent teleportation",
+            slug: "qc-regulation",
+            title: "The Case for Global Quantum Computing Governance",
             publishDate: "iesojfewif"
-        }
+        },
     ]
 }
 
@@ -41,10 +41,10 @@ export default function Blog() {
     return (
         <div className="flex flex-col w-full min-h-screen">
             <Header></Header>
-            <div className="flex flex-col items-center justify-center flex-1">
+            <div className="flex flex-col flex-1 justify-center items-center">
                 <div className="flex flex-row flex-1 w-full h-full">
-                    <div className="flex justify-center flex-1 font-mono md:py-8">
-                        <Window>
+                    <div className="flex flex-1 justify-center md:py-8 font-mono">
+                        <Window dir="blog">
                             <div className="p-4 overflow-scroll">
                                     <h1>$ ls</h1>
                                     {posts.map((obj, idx) => (
