@@ -10,7 +10,7 @@ export default function Me() {
                 <div className="flex flex-row flex-1 w-full h-full">
                     <div className="flex justify-center font-mono md:py-8 grow">
                         <Window>
-                            <div className="p-4 overflow-scroll">
+                            <div className="p-4">
                                 
                                 <h1>$ whoami</h1>
                                 <p>&gt; <span className="font-bold">Name: </span> Vivaan Verma</p>
