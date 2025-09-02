@@ -8,7 +8,7 @@ export default function Home() {
                 <h1 className="font-sans text-5xl font-normal tracking-tight text-center text-black opacity-0 md:text-9xl dark:text-white animate-slidein300">
                     Vivaan Verma
                 </h1>
-                <h2 className="px-6 text-sm font-light tracking-tighter text-center uppercase opacity-0 text-slate-800 md:text-lg dark:text-gray-300 animate-slidein500">16 year old student passionate about physics and tech</h2>
+                <h2 className="px-6 text-sm font-light tracking-tighter text-center uppercase opacity-0 text-slate-800 md:text-lg dark:text-gray-300 animate-slidein500">17 year old student passionate about physics and tech</h2>
             </div>
         </div>
     );
