@@ -14,7 +14,7 @@ export default function Me() {
                                 
                                 <h1>$ whoami</h1>
                                 <p>&gt; <span className="font-bold">Name: </span> Vivaan Verma</p>
-                                <p>&gt; <span className="font-bold">Age: </span> 16</p>
+                                <p>&gt; <span className="font-bold">Age: </span> 17</p>
                                 <p>&gt; <span className="font-bold">Location: </span> London, UK</p>
                                 
                                 <p>&nbsp;</p>
@@ -24,13 +24,8 @@ export default function Me() {
                                     <div className="flex flex-col gap-1 pt-1 pl-[2ex]">
                                         <div className="flex flex-row">
                                             <p className="pl-1 pr-2">-</p>
-                                            <p> Currently studying
-                                                <span className="font-semibold"> Maths</span>, 
-                                                <span className="font-semibold"> Further Maths</span>, 
-                                                <span className="font-semibold"> Physics</span>,
-                                                <span className="font-semibold"> Computer Science</span> and
-                                                <span className="font-semibold"> Design and Technology </span>
-                                                A-Level at
+                                            <p>
+                                                GCSEs and A-Levels at
                                                 <span>
                                                     <span> </span>
                                                     <Link
@@ -39,12 +34,8 @@ export default function Me() {
                                                     >
                                                         Wilson&apos;s School
                                                     </Link>
-                                                </span>
+                                                </span> (2019 - 2026)
                                             </p>
-                                        </div>
-                                        <div className="flex flex-row">
-                                            <p className="pl-1 pr-2">-</p>
-                                            <p> Achieved <span className="font-bold">straight 9s in GCSEs</span> (2024)</p>
                                         </div>
                                      </div>
                                 </div>
@@ -54,22 +45,6 @@ export default function Me() {
                                 <div>
                                     <p>&gt; <span className="font-bold">Interests: </span></p>
                                     <div className="flex flex-col gap-1 pt-1 pl-[2ex]">
-                                        <div className="flex flex-row">
-                                            <p className="pl-1 pr-2">-</p>
-                                            <p>
-                                                <span className="font-semibold">Astrophysics </span>
-                                                and
-                                                <span className="font-semibold"> quantum physics</span>
-                                            </p>
-                                        </div>
-                                        <div className="flex flex-row">
-                                            <p className="pl-1 pr-2">-</p>
-                                            <p>
-                                                <span className="font-semibold">Quantum computing </span>
-                                                and
-                                                <span className="font-semibold"> AI ethics</span>
-                                            </p>
-                                        </div>
                                         <div className="flex flex-row">
                                             <p className="pl-1 pr-2">-</p>
                                             <p>
